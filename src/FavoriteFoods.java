@@ -6,6 +6,7 @@ public class FavoriteFoods {
         ArrayList<String> foods = new ArrayList<>();
         foods.add("Put a food you like here");
 
+        System.out.println("OUR FAVORITE FOODS");
         for (String item : foods)
             System.out.println(item);
     }
